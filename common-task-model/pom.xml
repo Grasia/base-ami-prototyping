@@ -7,10 +7,10 @@
     </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.sf.mydevel</groupId>
-  <artifactId>first-demo</artifactId>
+  <artifactId>common-task-model</artifactId>
   <packaging>jar</packaging>
-  <name>First Demo Project</name>
-  <description>A basic scenario with dummy device behavior.</description>
+  <name>Common Activities of Daily Living</name>
+  <description>A set of models about activities of daily living.</description>
   <url>http://grasia.fdi.ucm.es/sociaal</url>
 
   <licenses>
@@ -19,7 +19,7 @@
       <url>http://www.gnu.org/copyleft/gpl.html</url>
       <distribution />
     </license>
-  </licenses>		
+  </licenses>
   <developers>
 	<developer>
 		<id>pcampillo</id>
@@ -122,7 +122,7 @@
         </configuration>
       </plugin>
 
-	<!-- and now, the generated sources and resources are included in the 
+	<!-- and now, the generated sources and resources are included in the
 				build -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
@@ -167,7 +167,7 @@
         </configuration>
       </plugin>
 <!-- It generates the documentation associated wiht the metamodel in each submodule-->
-     <plugin>		
+     <plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
 				<version>1.2.1</version>
@@ -245,7 +245,7 @@
 							</resources>
 						</configuration>
 					</execution>
-					
+
 
 				</executions>
 			</plugin>
@@ -271,15 +271,15 @@
 		</artifactItems>
 		<!-- configure the plugin here -->
 		</configuration>
-	      </execution>				
+	      </execution>
 	    </executions>
 	  </plugin>
 	</plugins>
 	<pluginManagement>
 	  <plugins>
-	    <!--This plugin's configuration is used to store Eclipse m2e settings 
+	    <!--This plugin's configuration is used to store Eclipse m2e settings
 	      only. It has no influence on the Maven build itself. -->
-	      
+
 		<plugin>
 		  <groupId>org.eclipse.m2e</groupId>
 		  <artifactId>lifecycle-mapping</artifactId>
@@ -320,9 +320,9 @@
 		    </lifecycleMappingMetadata>
 		  </configuration>
 		</plugin>
-		
+
 	      </plugins>
 	    </pluginManagement>
 	  </build>
-	  
+
 </project>
