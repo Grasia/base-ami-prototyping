@@ -39,7 +39,7 @@ ant compile
 
 4. To run a simulation diagram (e.g. MySimulation).
 ```
-ant runMySimulation [-Dml=true] [-Dml=record]
+ant runMySimulation [-Dml=true] [-Drecord=true]
 ```
 -Dml=true and -Dml=record are opcional parameters. The firs one is necessary if the simulation requires to process audio (e.g. charecters listen each other). The second one will generate a video of the simulation called PHAT-MySimulation.mp4.
 
